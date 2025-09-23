@@ -1,0 +1,8 @@
+\
+@ECHO OFF
+set SPHINXOPTS=
+set SPHINXBUILD=sphinx-build
+set SOURCEDIR=source
+set BUILDDIR=build
+
+%SPHINXBUILD% -M %1 %SOURCEDIR% %BUILDDIR% %SPHINXOPTS% %O%
