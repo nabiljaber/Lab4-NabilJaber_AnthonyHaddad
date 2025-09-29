@@ -1,7 +1,3 @@
-# Lab 3 – Documentation (Kevin-style)
-
-This folder mirrors the structure in Kevin's example using Sphinx.
-
 ## Build locally
 1. `pip install sphinx sphinxcontrib-napoleon` (or `sphinx` + built-in `sphinx.ext.napoleon`)
 2. From this folder: `make html`
